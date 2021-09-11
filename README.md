@@ -1,6 +1,6 @@
 # SwiftUIPhone
 
-[![Version](https://img.shields.io/badge/spm-v1.4.1-blue)](https://github.com/JUSTINMKAUFMAN/SwiftUIPhone/releases)
+[![Version](https://img.shields.io/badge/spm-v1.0.1-blue)](https://github.com/JUSTINMKAUFMAN/SwiftUIPhone/releases)
 [![License](https://img.shields.io/badge/license-MIT-brightgreen)](https://github.com/JUSTINMKAUFMAN/SwiftUIPhone/blob/master/LICENSE)
 [![Platform](https://img.shields.io/badge/platform-macOS-orange)](https://github.com/JUSTINMKAUFMAN/SwiftUIPhone)
 [![Platform](https://img.shields.io/badge/platform-iOS-green)](https://github.com/JUSTINMKAUFMAN/SwiftUIPhone)
@@ -13,7 +13,7 @@ you can think of this as your reward: a way to build that app for macOS and run 
 (compared to an actual iPhone Simulator, that is) directly on any Mac, no Xcode or dev tools required.
 
 <p align="center">
-    <img src="/SwiftUIPhoneDemoMac.gif" />
+    <img src="/SwiftUIPhone.png" />
 </p>
 
 ## Compatibility

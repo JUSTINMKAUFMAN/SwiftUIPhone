@@ -10,7 +10,7 @@
 		062863FF26EC66C800EAB420 /* SwiftUIPhoneDemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 062863FE26EC66C800EAB420 /* SwiftUIPhoneDemoApp.swift */; };
 		0628640326EC66CA00EAB420 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0628640226EC66CA00EAB420 /* Assets.xcassets */; };
 		0628640626EC66CA00EAB420 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0628640526EC66CA00EAB420 /* Preview Assets.xcassets */; };
-		0628641126EC67FA00EAB420 /* SwiftUIPhone in Frameworks */ = {isa = PBXBuildFile; productRef = 0628641026EC67FA00EAB420 /* SwiftUIPhone */; };
+		0628641426ED136800EAB420 /* SwiftUIPhone in Frameworks */ = {isa = PBXBuildFile; productRef = 0628641326ED136800EAB420 /* SwiftUIPhone */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,7 +20,7 @@
 		0628640526EC66CA00EAB420 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		0628640726EC66CA00EAB420 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0628640826EC66CB00EAB420 /* SwiftUIPhoneDemo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SwiftUIPhoneDemo.entitlements; sourceTree = "<group>"; };
-		0628640E26EC67CF00EAB420 /* SwiftUIPhone */ = {isa = PBXFileReference; lastKnownFileType = folder; name = SwiftUIPhone; path = ../SwiftUIPhone; sourceTree = "<group>"; };
+		0628641226ED134B00EAB420 /* SwiftUIPhone */ = {isa = PBXFileReference; lastKnownFileType = folder; name = SwiftUIPhone; path = ..; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -28,7 +28,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0628641126EC67FA00EAB420 /* SwiftUIPhone in Frameworks */,
+				0628641426ED136800EAB420 /* SwiftUIPhone in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -38,7 +38,7 @@
 		062863F226EC66C800EAB420 = {
 			isa = PBXGroup;
 			children = (
-				0628640E26EC67CF00EAB420 /* SwiftUIPhone */,
+				0628641226ED134B00EAB420 /* SwiftUIPhone */,
 				062863FD26EC66C800EAB420 /* SwiftUIPhoneDemo */,
 				062863FC26EC66C800EAB420 /* Products */,
 				0628640F26EC67FA00EAB420 /* Frameworks */,
@@ -97,7 +97,7 @@
 			);
 			name = SwiftUIPhoneDemo;
 			packageProductDependencies = (
-				0628641026EC67FA00EAB420 /* SwiftUIPhone */,
+				0628641326ED136800EAB420 /* SwiftUIPhone */,
 			);
 			productName = SwiftUIPhoneDemo;
 			productReference = 062863FB26EC66C800EAB420 /* SwiftUIPhoneDemo.app */;
@@ -342,7 +342,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		0628641026EC67FA00EAB420 /* SwiftUIPhone */ = {
+		0628641326ED136800EAB420 /* SwiftUIPhone */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = SwiftUIPhone;
 		};
