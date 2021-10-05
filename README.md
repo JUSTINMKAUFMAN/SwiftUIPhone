@@ -84,8 +84,10 @@ struct SwiftUIPhoneDemoApp: App {
 ## Author
 
 Justin Kaufman
-Email: jmkauf@gmail.com
-Twitter: [@JUSTINMKAUFMAN](https://twitter.com/JUSTINMKAUFMAN)
+
+Email | jmkauf@gmail.com
+
+Twitter | [@JUSTINMKAUFMAN](https://twitter.com/JUSTINMKAUFMAN)
 
 ## License
 
