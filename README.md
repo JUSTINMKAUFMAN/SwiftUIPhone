@@ -3,7 +3,6 @@
 [![Version](https://img.shields.io/badge/spm-v1.0.1-blue)](https://github.com/JUSTINMKAUFMAN/SwiftUIPhone/releases)
 [![License](https://img.shields.io/badge/license-MIT-brightgreen)](https://github.com/JUSTINMKAUFMAN/SwiftUIPhone/blob/master/LICENSE)
 [![Platform](https://img.shields.io/badge/platform-macOS-orange)](https://github.com/JUSTINMKAUFMAN/SwiftUIPhone)
-[![Platform](https://img.shields.io/badge/platform-iOS-green)](https://github.com/JUSTINMKAUFMAN/SwiftUIPhone)
 
 Run a SwiftUI app (or any SwiftUI view) in an iPhone Simulator "wrapper", directly on macOS!
 
@@ -13,7 +12,7 @@ you can think of this as your reward: a way to build that app for macOS and run 
 (compared to an actual iPhone Simulator, that is) directly on any Mac, no Xcode or dev tools required.
 
 <p align="center">
-    <img src="/SwiftUIPhone.png" />
+    <img src="/SwiftUIPhone.png" alt="SwiftUIPhone Screenshot" width="300" height="597"/>
 </p>
 
 ## Compatibility
@@ -84,7 +83,9 @@ struct SwiftUIPhoneDemoApp: App {
 
 ## Author
 
-Justin Kaufman, jmkauf@gmail.com
+Justin Kaufman
+Email: jmkauf@gmail.com
+Twitter: [@JUSTINMKAUFMAN](https://twitter.com/JUSTINMKAUFMAN)
 
 ## License
 
