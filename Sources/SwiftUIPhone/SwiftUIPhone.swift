@@ -11,9 +11,13 @@ public struct SwiftUIPhone: View {
     @SwiftUI.Environment(\.colorScheme) var colorScheme
     private let rootView: AnyView
     private var phoneImage: Image { colorScheme == .dark ? Image.phoneBlack : Image.phoneWhite }
-
-    public init(rootView: AnyView = AnyView(Text("This is the root view of my app"))) {
-        self.rootView = rootView
+    
+    public init<Content>(rootView: Content) where Content : View {
+        self.rootView = AnyView(rootView)
+    }
+    
+    public init() {
+        self.init(rootView: Text("This is the root view of my app"))
     }
     
     public var body: some View {
